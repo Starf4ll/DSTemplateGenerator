@@ -52,42 +52,42 @@
 //				mc										//
 //				sd										//
 //				st										//
-														//
+//														//
 //														//
 //				Optional: Can be anything or not included, just don't use the same letters as 	//
 //				other parts of the name. Example: _st_ = Steel					//
-														//
+//														//
 //														//
 //				s	(Short - For Bows 							//
 //				m	(Medium - For Bows and Crossbows only)					//
 //				l	(Long - For Bows and Crossbows only)					//
 //				1h	(Two-Handed - For melee weapons only)					//
 //				2h	(Two-Handed - For melee weapons only)					//
-														//
+//														//
 //			Rarities:										//
 //				Optional: Use one of the following or don't include for common rarity		//
-														//
+//														//
 //				ra	(Rare)									//
 //				un	(Unique)								//
-														//
+//														//
 //			Other Info:										//
 //				Optional: You can put anything here to uniquely identify the template, but	//
 //				again don't use the same letters as other parts of the name			//
-														//	
-														//
+//														//	
+//														//
 //		General Armor Format: {category}_{material}_{class}_g_c_{rarity}_{mixstat}_{other info}		//
-														//
+//														//
 //			Categories:										//
 //				bd	(Body/Chestpieces)							//
 //				bo	(Boots)									//
 //				gl	(Gloves)								//
 //				he	(Helmets)								//
 //				sh	(Shields)								//
-														//
+//														//
 //			Materials:										//
 //				If you don't use one of the below options, generator will assume cloth to	//
 //				determine body armor specialization						//
-														//
+//														//
 //				br = Brigandine									//
 //				ba = Banded									//
 //				pl = Plate									//
@@ -100,18 +100,18 @@
 //				sl = Studded Leather								//
 //				cl = Cloth									//
 //				ro = Robe									//
-														//
+//														//
 //			Classes:										//
 //				f	(Fighter - For STR items)						//
 //				r	(Ranger - For DEX items)						//
 //				m	(Mage - For INT items)							//
-														//
+//														//
 //			Rarities:										//
 //				Optional: Use one of the following or don't include for common rarity		//
-														//
+//														//
 //				ra	(Rare)									//
 //				un	(Unique)								//
-														//
+//														//
 //			Mixed Stats:										//
 //				Optional: You can include one of the below options to have the generator	//
 //				use a mixture of stats (such as Strength and Dexterity). The stat requirements	//
