@@ -4,32 +4,42 @@
 //														//
 //////////////////////////////////////////////// DESCRIPTION /////////////////////////////////////////////////////
 //														//
-//	This program is designed to auto-generate Templates for Dungeon Siege 1 by reading the			//
-//		raw data from templateUpload.csv and converting it to the proper format for Templates.		//
+//	This program is designed to auto-generate Templates for Dungeon Siege 1 by reading the data from	//
+//	templateUpload.csv and converting it to the proper format for Templates.				//
 //														//
-//	Currently the program is capable of generating all types of armor and weapons and also			//
-//		includes support for mixed stat requirements on armor (such as Strength + Dexterity).		//
+//	Currently the program is capable of generating all types of armor and weapons and also includes		//
+//	support for mixed stat requirements on armor (such as Strength + Dexterity).				//
 //														//
-//	Damage, Defense, as well as Modifier Min and Max values will all be auto-calculated based		//
-//		on the Equip Requirements and the type of template generated. Values will not be 		//
-//		exactly the same as vanilla but follow a similar curve.						//
+//	Damage, Defense, as well as Modifier Min and Max values will all be auto-calculated based on the	//
+//	Equip Requirements and the type of template generated. Values will not be exactly the same as		//
+//	vanilla but follow a similar curve.									//
 //														//
 //	It's recommended that you be familiar with SU 201 (Templates) and SU 211 (Naming Key)			//
-//		before attempting to use this program								//
+//	before attempting to use this program.									//
+//														//
+/////////////////////////////////////////////////INSTALLATION/////////////////////////////////////////////////////
+//														//
+//	Simply extract the contents of DS Template Generator.zip to a single directory and run DSTG.exe		//
+//	Be sure that the images folder is in the same directory as DSTG.exe or the program will NOT work.	//
 //														//
 ///////////////////////////////////////////////// HOW TO USE /////////////////////////////////////////////////////
 //														//
-//	The included file templateUpload.csv must be filled out before running the generator.			//
-//	The file comes with several examples that can be used as a reference to get started.			//
+//	Before generating the templates, you must fill out various fields within the interface so the generator	//
+//	knows what to create. A description of all the fields can be found below.				//
+//														//
+//	Several examples are included that can be used as a reference to get started.				//
+//														//
+//	You can also optionally fill out templateUpload.csv manually, the GUI will read and update based on	//
+//	whatever is in the file.										//
 //														//
 //	Instead of generating an entire template, you can also create variants which will			//
 //	inherit the properties of the base template, with different equip requirements,				//
 //	damage/defense values, models/textures, as well as inventory icons.					//
 //														//
-//			Any fields that have a * next to them are REQUIRED for armor templates			//
-//			Any fields that have a ^ next to them are REQUIRED for weapon templates			//
-//			Any fields that have a % next to them are REQUIRED for armor variants			//
-//			Any fields that have a $ next to them are REQUIRED for weapon variants			//
+//		Any fields that have a * next to them are REQUIRED for armor templates				//
+//		Any fields that have a ^ next to them are REQUIRED for weapon templates				//
+//		Any fields that have a % next to them are REQUIRED for armor variants				//
+//		Any fields that have a $ next to them are REQUIRED for weapon variants				//
 //		Any fields that have a & next to them are REQUIRED for shields (including variants)		//
 //														//
 //--------------------------------------------------------------------------------------------------------------//
@@ -38,7 +48,7 @@
 //		generator to function properly, a specific format is expected for the name. The format		//
 //		also helps ensure Dungeon Siege recognizes the template correctly for pcontent			//
 //														//
-//	! ! ! ! ! !IT IS VERY IMPORTANT TO FOLLOW THE FORMAT, OR THE PROGRAM MAY NOT WORK! ! ! ! ! ! 		//
+//  ! ! ! ! ! IT IS VERY IMPORTANT TO FOLLOW THIS FORMAT, OR YOUR TEMPLATES MAY GENERATE INCORRECTLY ! ! ! ! !	//
 //														//
 //		General Weapon Format: {category}_g_c_{material}_{length}_{rarity}_{other info}			//
 //														//
