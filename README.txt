@@ -22,6 +22,11 @@
 //	Simply extract the contents of DS Template Generator.zip to a single directory and run DSTG.exe		//
 //	Be sure that the images folder is in the same directory as DSTG.exe or the program will NOT work.	//
 //														//
+//	Please be advised that Windows Defender may incorrectly identify DSTG.exe as a virus. This is because	//
+//	the program was compiled using pyinstaller which does not sign the exe with a cert.			//
+//	For more details see the below link									//
+//	https://stackoverflow.com/questions/44377666/pyinstaller-exe-throws-windows-defender-no-publisher	//
+//														//
 ///////////////////////////////////////////////// HOW TO USE /////////////////////////////////////////////////////
 //														//
 //	Before generating the templates, you must fill out various fields within the interface so the generator	//
@@ -63,7 +68,7 @@
 //				sd										//
 //				st										//
 //														//
-//														//
+//			Material:										//
 //				Optional: Can be anything or not included, just don't use the same letters as 	//
 //				other parts of the name. Example: _st_ = Steel					//
 //														//
